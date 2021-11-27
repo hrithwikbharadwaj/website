@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="../assets/css/styles.css">
+
+        <title>Honeycomb Packing - Hexsa.in </title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-artboard-fill"></i> Hexsa
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="/website" class="nav__link ">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="/website#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="/website#products" class="nav__link active-link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="/website#faqs" class="nav__link">FAQs</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="/website#contact" class="nav__link">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="">
+                <div class="about__container grid">
+                    <div class="siema">
+                       
+                    <img src="../assets/img/paperangles.png" alt="" style="width: 100%;" loading="lazy" >
+                    
+                        </div>
+                        
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Hexsa Paper Angles
+                        </h2>
+
+                        <p class="about__description">
+                            Hexsa paper angles are manuactured with fully imported equipment using kraft board & imported kraft liner paper to give exceptional rigidity & finish
+
+                         
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Paper Angles can be cut into custom lengths like,
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                75x75x5 mm
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                50x50x5 mm
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                60x60x4 mm
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                30x30x3 mm
+
+                            </p>                           
+                        </div>
+
+                        <a href="#contact" class="button--link button--flex">
+                            Know Now <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        
+
+           <!--==================== CONTACT ====================-->
+           <section class="contact section container" id="contact">                
+            <div class="contact__container grid">
+                <div class="contact__box">
+                    <h2 class="section__title">
+                        Reach out to us today <br> via any of the given <br> information
+                    </h2>
+
+                    <div class="contact__data">
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Call us for instant support</h3>
+                            <span class="contact__description">
+                                <i class="ri-phone-line contact__icon"></i>
+                                +91 9894086315
+                            </span>
+                        </div>
+
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Write us by mail</h3>
+                            <span class="contact__description">
+                                <i class="ri-mail-line contact__icon"></i>
+                                marketing@hexsa.in
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="https://formspree.io/f/mpzbadoj" method="POST" class="contact__form">
+                    <input type="hidden" name="apikey" value="a485b5f1-df02-4ad4-8e8c-489d14aa5668">
+                    <div class="contact__inputs">
+                        <div class="contact__content">
+                            <input type="email" name="_replyto" required class="contact__input">   
+                            <label for="" class="contact__label">Email</label>
+                        </div>
+
+                        <div class="contact__content">
+                            <input type="text" name="name" required class="contact__input">  
+                            <label for="" class="contact__label">Name</label>
+                        </div>
+
+                        <div class="contact__content contact__area">
+                            <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                            <label for="" class="contact__label">Message</label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="button button--flex">
+                        Send Message
+                        <i class="ri-arrow-right-up-line button__icon"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+          <!--==================== FOOTER ====================-->
+          <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-artboard-fill"></i> Hexsa
+                    </a>
+
+                    <h3 class="footer__title">Our Address</h3>
+                        <ul class="footer__data">
+                            <li class="footer__information">No. 12-15, Gopal Reddy Kandigai,Gummidipoondi</li>
+                            <li class="footer__information"> Chennai - 601 201, Tamil Nadu, India </li>
+                            <li class="footer__information">Phone : (044)-27923454</li>
+                            
+                        </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+91 9894086315</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                
+            </div>
+
+            <p class="footer__copy">&#169; Hexsa.in All rigths reserved</p>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="../assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="../assets/js/main.js"></script>
+
+          <!--=============== Siema JS ===============-->
+          <script src="../assets/js/siema.min.js"></script>
+          <script>
+            new Siema({
+                loop:true,
+                duration:800
+            });
+          
+          </script>
+    </body>
+</html>
