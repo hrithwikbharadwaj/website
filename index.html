@@ -406,7 +406,8 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact__form">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
+                        <input type="hidden" name="apikey" value="a485b5f1-df02-4ad4-8e8c-489d14aa5668">
                         <div class="contact__inputs">
                             <div class="contact__content">
                                 <input type="email" placeholder=" " class="contact__input">
@@ -423,8 +424,8 @@
                                 <label for="" class="contact__label">Message</label>
                             </div>
                         </div>
-
-                        <button class="button button--flex">
+                        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                        <button type="submit" class="button button--flex">
                             Send Message
                             <i class="ri-arrow-right-up-line button__icon"></i>
                         </button>
