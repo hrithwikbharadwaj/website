@@ -406,17 +406,17 @@
                         </div>
                     </div>
 
-                    <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
+                    <form action="https://formspree.io/f/mpzbadoj" method="POST" class="contact__form">
                         <input type="hidden" name="apikey" value="a485b5f1-df02-4ad4-8e8c-489d14aa5668">
                         <div class="contact__inputs">
                             <div class="contact__content">
-                                <input type="email" placeholder=" " class="contact__input">
+                                <input type="email" name="_replyto" required class="contact__input">   
                                 <label for="" class="contact__label">Email</label>
                             </div>
 
                             <div class="contact__content">
-                                <input type="text" placeholder=" " class="contact__input">
-                                <label for="" class="contact__label">Subject</label>
+                                <input type="text" name="name" required class="contact__input">  
+                                <label for="" class="contact__label">Name</label>
                             </div>
 
                             <div class="contact__content contact__area">
@@ -424,7 +424,7 @@
                                 <label for="" class="contact__label">Message</label>
                             </div>
                         </div>
-                        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                        
                         <button type="submit" class="button button--flex">
                             Send Message
                             <i class="ri-arrow-right-up-line button__icon"></i>
