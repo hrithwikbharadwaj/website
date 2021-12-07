@@ -500,6 +500,12 @@ the website, in dark theme
   gap: 2.5rem 3rem;
 }
 
+.client__container{
+  padding: 3rem 0;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem 3rem;
+}
+
 .product__card{
   display: grid;
   position: relative;
@@ -895,6 +901,11 @@ the website, in dark theme
     grid-template-columns: .6fr;
     justify-content: center;
   }
+
+  .client__container{
+    grid-template-columns: .6fr;
+    justify-content: center;
+  }
 }
 
 /* For medium devices */
@@ -907,6 +918,12 @@ the website, in dark theme
     padding: 0 4rem;
   }
   .product__container{
+    grid-template-columns: repeat(2, 170px);
+    justify-content: center;
+    column-gap: 5rem;
+  }
+
+  .client__container{
     grid-template-columns: repeat(2, 170px);
     justify-content: center;
     column-gap: 5rem;
@@ -1017,6 +1034,11 @@ the website, in dark theme
   .product__container{
     padding: 4rem 0;
     grid-template-columns: repeat(3, 185px);
+    gap: 4rem 6rem;
+  }
+  .client__container{
+    padding: 4rem 0;
+    grid-template-columns: repeat(4, 185px);
     gap: 4rem 6rem;
   }
   .product__img{
